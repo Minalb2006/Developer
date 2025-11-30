@@ -96,10 +96,10 @@ body {
 
 /* Name and summary section */
 .name {
-    letter-spacing: -0.025em;
+    letter-spacing: 25%;
     font-weight: 600;
-    font-size: 1.50rem;
-    line-height: 2.25rem;
+    font-size: 26px;
+    line-height: 36px;
     box-sizing: border-box;
     border-width: 0;
     border-style: solid;
@@ -136,11 +136,6 @@ img {
 
 }
 
-img :hover {
-    cursor: pointer;
-    box-shadow: 20px 20px 30px #1d2635;
-}
-
 .details p {
     color: white;
     margin-top: 10px;
@@ -151,7 +146,7 @@ img :hover {
 .p1 {
     color: rgb(146 173 201);
     font-size: 10px;
-    line-height: 1.1rem;
+    line-height: 17px;
     margin: 10px;
     font-weight: 200;
     margin-top: 10px;
@@ -266,15 +261,14 @@ th {
     text-align: left;
     padding: 10px 0;
     color: rgb(146 173 201);
-    ;
     border-bottom: 1px solid #1f2937;
 }
-
 td {
     padding: 12px 0;
     color: white;
     font-size: small;
 }
+
 
 .completed {
     color: #22c55e;
