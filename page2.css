@@ -263,12 +263,12 @@ th {
     color: rgb(146 173 201);
     border-bottom: 1px solid #1f2937;
 }
+
 td {
     padding: 12px 0;
     color: white;
     font-size: small;
 }
-
 
 .completed {
     color: #22c55e;
