@@ -10,14 +10,13 @@ body {
     background: #0f172a;
     color: #fff;
 }
-
-/* Sidebar */
+/* ------------------Sidebar--------- */
 .sidebar {
     width: 17%;
     background: #111a22;
     height: 100vh;
     padding: 20px;
-    border-right: 1px solid #007bff;
+    border-right: 1px solid #365574;
 }
 
 .frist {
@@ -76,7 +75,7 @@ menu {
     gap: 10px;
     cursor: pointer;
     margin-top: 200px;
-    border-bottom: 1px solid #007bff;
+    border-bottom: 1px solid #365574;
 
 }
 
@@ -85,7 +84,7 @@ bottom-user {
     align-items: center;
     gap: 12px;
     padding: 12px;
-    border-top: 1px solid #0f304b;
+    border-top: 1px solid #365574;
 }
 
 .bottom-user img {
@@ -121,7 +120,7 @@ bottom-user {
     margin-top: 15px;
     margin-left: 50px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #007bff;
+    border-bottom: 1px solid #365574;
 
 }
 
@@ -139,11 +138,6 @@ bottom-user {
 .search-box i {
     color: #b9c2d0;
 }
-
-
-
-
-
 .search-box input {
     background: transparent;
     border: none;
@@ -273,4 +267,64 @@ h6{
 .chart-box img{
    height: 60%;
    width: 100%;
+}
+
+
+
+/* meadia quary --------- */
+@media (max-width: 1024px) {
+
+    .sidebar {
+        width: 22%;
+    }
+
+    .dashboard {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .charts {
+        grid-template-columns: 1fr;
+    }
+
+    .topbar {
+        margin-left: 20px;
+        width: 95%;
+    }
+
+    .main {
+        width: 100%;
+        margin-left: 20px;
+    }
+}
+     /* 2nd meadia quary in 480px------- */
+     @media (max-width: 480px) {
+
+    .topbar {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    .search-box {
+        width: 100%;
+    }
+
+    .dashboard {
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+    }
+
+    .charts {
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+    }
+
+    .card {
+        height: auto;
+        padding: 15px;
+    }
+
+    .chart-box {
+        height: auto;
+    }
 }
